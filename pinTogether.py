@@ -2,7 +2,7 @@ import pandas as pd
 
 # 读取两个 CSV
 df1 = pd.read_csv("HarrisTweetsFinal.csv")
-df2 = pd.read_csv("HarrisTweets2.csv")
+df2 = pd.read_csv("HarrisTweets_only_1104.csv")
 
 # 拼接
 df = pd.concat([df1, df2], ignore_index=True)

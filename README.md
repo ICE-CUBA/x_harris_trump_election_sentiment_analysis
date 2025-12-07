@@ -183,7 +183,7 @@ python remove_duplicate.py
 python sentiment_analysis.py
 
 # 4. Generate daily sentiment
-python daily_sentiment.py
+python daily_general_sentiment.py
 ```
 
 ## License
